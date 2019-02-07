@@ -1,6 +1,6 @@
 ---
 
-- name: Patch Red Hat Enterprise Linux system
+- name: Patch Red Hat Enterprise Linux system(s)
   hosts: all
   tasks:
     - name: Update all RPM packages
